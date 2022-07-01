@@ -1,0 +1,115 @@
+.App {
+    background-image: url(https://img.lovepik.com/photo/40125/7646.jpg_wh860.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .navbar{
+   border-radius: 10px;
+   margin: 10px;
+   box-shadow: 3px 3px #845EC2, -1em 0 0.4em #845EC2;
+  }
+  
+  .form-comtrol{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 3px 3px #845EC2, -1em 0 0.4em #B39CD0;
+  }
+  
+  .btn-prymary{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background-color: #00C9A7;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 3px 3px #845EC2, -1em 0 0.4em #B39CD0;
+  }
+  
+  .Weather{
+  background-image: url(https://i0.wp.com/wikisabio.com/wp-content/uploads/2020/10/concepto-climas-lifeder-min.jpg?fit=900%2C471&ssl=1);
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  width:fit-content;
+  height: fit-content;
+  background-color:#4B4453;
+  color: #fff; ;
+  box-shadow: 3px 3px #845EC2, -1em 0 0.4em #B39CD0;
+  }
+  
+  .weather_app h2{
+    
+    color: #fff;
+  
+  }
+  
+  .weather_img{
+  
+    border-radius: 10px;
+    padding: auto;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+  
+  
+  }
+  
+  .description{
+    text-align: end;
+  }
+   
+  button{
+  
+  
+  list-style: none;
+  border: none;
+  color:#FF6F91;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  background-color: #282c34;
+  }
+  
+  
+  
+  
+  .data{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    gap: 10px;
+    
+    
+  }
+  
+  .fa-solid{
+    color: #845EC2;
+    font-size: 40px;
+  
+  
+  }
+  
+  
+  .data h2{
+    color: #4B4453;
+  }
