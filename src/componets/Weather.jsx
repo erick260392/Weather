@@ -54,14 +54,14 @@ const Convert = ()=>{
         
 <div className='Weather'>
 
-<div className='weather_app'>
+
 
 <h1>Wheater App</h1>
 <h2> <i class="fa-solid fa-location-dot"></i> {weather.name}, {weather.sys?.country} </h2> 
 
 <div className='weather_img'>
 <img src={`http://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`} alt="" />
-</div>
+
 
 <h2>{degrees} {isKelvin ? "Kelvin" : "° Centrigrates"  } </h2>
 <h2> "{weather.weather?.[0].description}"</h2>
