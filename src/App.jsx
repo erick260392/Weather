@@ -8,13 +8,20 @@ function App() {
  
 
   return (
+
+      
     <div className="App">
+
 
 <NavBar></NavBar>
 <Form></Form>
 <Weather></Weather>
+
+
+
      
     </div>
+ 
   )
 }
 
